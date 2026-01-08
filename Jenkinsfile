@@ -47,7 +47,7 @@ pipeline {
         stage('Expose Application using Service') {
             steps {
                 sh """
-                  kubectl apply -f service.yml
+                  kubectl apply -f service.yaml
                 """
             }
         }
