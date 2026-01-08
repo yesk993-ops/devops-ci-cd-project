@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "mydocker3692/flashapp"
+        IMAGE_NAME = "mydocker3692/newflashapp"
         IMAGE_TAG  = "latest"
     }
 
